@@ -23,7 +23,7 @@ python train.py experiment_configs/binary.json
 
 Note, that trained binary autoencoder on the sequnces from
 
-A. Tucs, D. P. Tran, A. Yumoto, Y. Ito, T. Uzawa and K. Tsuda, Generating ampicillin-level antimicrobial peptides with activity-aware generative adversarial networks, ACS Omega, 2020, 5(36), 22847–22851.
+* A. Tucs, D. P. Tran, A. Yumoto, Y. Ito, T. Uzawa and K. Tsuda, Generating ampicillin-level antimicrobial peptides with activity-aware generative adversarial networks, ACS Omega, 2020, 5(36), 22847–22851.
 
 is already provided. So you can proceed directly to the sampling
 
