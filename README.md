@@ -7,7 +7,7 @@ MOQA employs the implementation from
 
 * R. Baynazarov and I. Piontkovskaya. Binary autoencoder for text modeling. Communications in Computer and Information Science, 2019
 
-For extraction of peptide sequences with desired properies from the latent space FMQA based approach is used. For details please see 
+For extraction of peptide sequences with desired properies from the latent space similar to FMQA approach is used. For details please see 
 
 * K. Kitai, J. Guo, S. Ju, S. Tanaka, K. Tsuda, J. Shiomi, and R. Tamura. Designing metamaterials with quantum annealing and factorization machines. Phys. Rev. Research, 2:013319, Mar 2020
 
@@ -33,4 +33,4 @@ is already provided. So you can proceed directly to the sampling.
 python sampler.py
 ```
 
-In the particular example three peptide properties are optimized. These are charge density, instability index and Boman index. Charge density is maximized, while instability and Boman indexes are minimized. Simulated annealing sampler is exploted for this.
+In the particular example three peptide properties are optimized. These are charge density, instability index and Boman index. Charge density is maximized, while instability and Boman indexes are minimized. Simulated annealing sampler is exploted for this task.
