@@ -15,7 +15,7 @@ MOQA is extention of FMQA for simultaneous optimization of multiple properties.
 
 # Usage
 
-* For the latent space construction for own set of sequences run
+* For the latent space construction for the own set of sequences run
 
 ```
 python train.py experiment_configs/binary.json
