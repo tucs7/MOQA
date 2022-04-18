@@ -3,7 +3,7 @@
 MOQA is a framework for multiobjective optimization of peptide properties using QUBO samplers.
 
 It consists from the binary autencoder that is used for the binary descrete latent space construction. It provides binary encoding of peptide sequences.
-MOQA employs following implementation:
+MOQA employs the implementation from
 
 * R. Baynazarov and I. Piontkovskaya. Binary autoencoder for text modeling. Communications in Computer and Information Science, 2019
 
