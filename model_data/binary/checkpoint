@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/andrejs/data/qan/binary-autoencoder-master_binary2_10_ev1/model_data/binary/model.ckpt"
+all_model_checkpoint_paths: "/home/andrejs/data/qan/binary-autoencoder-master_binary2_10_ev1/model_data/binary/model.ckpt"

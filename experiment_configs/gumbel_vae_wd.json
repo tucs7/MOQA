@@ -1,0 +1,38 @@
+{
+    "model_name": "gumbel_vae_wd",
+    
+    "encoder_cell": "gru",
+    "encoder_type": "rnn_bidi",
+    "encoder_layers": 1,
+    
+    "latent_type": "gumbel",
+    "use_kl": true,
+    
+    "decoder_cell": "gru",
+    "decoder_layers": 1,
+    "concat_latent_to_words": false,
+    
+    "vocab_size": 20,
+    "hidden_size": 512,
+    "latent_size": 64,
+    "dropout_rate": 0.2,
+    "word_dropout": 0.5,
+    "kl_annealing_period": 1000,
+    
+    "tokens_per_batch": 400,
+    
+    "num_epochs": 200,
+    "learning_rate": 0.001,
+    "clip_grad_norm": 2.0,
+    "keep_checkpoint_max": 10,
+    
+    "data_path": "/home/andrejs/data/qan/binary-autoencoder-master_gumbel2_10_ev1/data/",
+    "model_path": "/home/andrejs/data/qan/binary-autoencoder-master_gumbel2_10_ev1/model_data/<model_name>/",
+    "output_path": "/home/andrejs/data/qan/binary-autoencoder-master_gumbel2_10_ev1/model_output/<model_name>/",
+    
+    "max_input_length": 52,
+    "max_output_length": 52,
+    
+    "buffer_size": 100,
+    "epoch_size": 0
+}
