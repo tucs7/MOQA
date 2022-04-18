@@ -1,8 +1,11 @@
 # MOQA
+
 MOQA is a framework for multiobjective optimization of peptide properties using QUBO samplers
 
-Usage
+# Usage
 
-In order make a test run execute
+* In order make a demo run execute
 
+```
 python sampler.py
+```
