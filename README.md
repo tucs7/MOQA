@@ -11,7 +11,7 @@ For extraction of peptide sequences with desired properies from the latent space
 
 * K. Kitai, J. Guo, S. Ju, S. Tanaka, K. Tsuda, J. Shiomi, and R. Tamura. Designing metamaterials with quantum annealing and factorization machines. Phys. Rev. Research, 2:013319, Mar 2020
 
-MOQA is extention of FMQA to simultaneous optimization of multiple properties.
+MOQA is extention of FMQA for simultaneous optimization of multiple properties.
 
 # Usage
 
