@@ -1,0 +1,6 @@
+Python = 3.7
+tensorflow==1.13.1
+fmqa
+pytorch
+botorch
+modlamp
