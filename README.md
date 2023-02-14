@@ -15,17 +15,17 @@ MOQA is extension of FMQA for simultaneous optimization of multiple properties.
 
 # Usage
 
-* To construct latent space for the own set of sequences run
+* To train binary autoencoder on the own set of sequences run
 
 ```
 python train.py experiment_configs/binary.json
 ```
 
-Note, that the already trained binary autoencoder on the peptide sequences from
+Note, that the trained binary autoencoder on the peptide sequences from
 
 * A. Tucs, D. P. Tran, A. Yumoto, Y. Ito, T. Uzawa and K. Tsuda, Generating ampicillin-level antimicrobial peptides with activity-aware generative adversarial networks, ACS Omega, 2020, 5(36), 22847–22851.
 
-is provided here. So you can proceed directly to the sampling.
+is already provided here. So you can directly proceed to the sampling.
 
 * For sampling run
 
