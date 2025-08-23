@@ -33,4 +33,4 @@ is already provided here. So you can directly proceed to the sampling.
 python sampler.py
 ```
 
-In the particular example three relevant peptide properties are considered: charge density, instability index, Boman index. Charge density is maximized, while instability and Boman indexes both are minimized. These properties are calculated using modlAMP package. Note, that simulated annealing QUBO sampler is exploited in this example.
+In the particular example three relevant peptide properties are considered: charge density, instability index, Boman index. Charge density is maximized, while instability and Boman indexes both are minimized. These properties are calculated using modlAMP package. Note, that simulated annealing QUBO sampler is exploited in this here.
